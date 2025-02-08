@@ -1,0 +1,37 @@
+# SDK-specific ignores
+src/mimecast_sdk.egg-info/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.coverage
+coverage.xml
+.tox/
+.env
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Test artifacts
+tests/.coverage
+tests/coverage.xml
+tests/htmlcov/
+
+# Documentation
+docs/_build/
+docs/api/
+
+# Development
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+
+# Local configuration
+local_config.py
+test_config.py
+credentials.json
